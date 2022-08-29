@@ -51,21 +51,25 @@ ul {
 
 .links {
   display: flex;
+  gap: 16px;
+  margin: 0;
+  padding: 0;
 }
 
 .header {
   display: flex;
-  justify-content: space-evenly;
   align-items: center;
+  justify-content: space-between;
+  padding: 8px;
 }
 
-.left-head {
-  display: flex;
-  flex: 1 0 auto;
-}
 
-.right-head {
+
+
+.right-head, .left-head {
   display: flex;
-  flex: 1 0 auto;
-  justify-content: flex-end;
+  /* flex: 1 0 auto; */
+  /* justify-content: flex-end; */
+  align-items: center;
+  gap: 16px;
 }
